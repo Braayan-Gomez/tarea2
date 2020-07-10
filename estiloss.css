@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background: url(1.jpg) no-repeat center top;
+    background-size: cover;
+    color: white;
+    font-family: Georgia, times, serif;
+}
+
+
+
+.navegacion ul {
+    background: rgba(117, 185, 248, 0.925);
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navegacion ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    padding: 1.6rem 50px;
+}
+
+.navegacion ul li a:hover {
+    background: rgba(195, 226, 255, 0.925);;
+}
+
+.infologin{
+    background:  rgba(255, 255, 255, 0.925);
+    opacity:0.9;
+    width: 25%;
+    height: 280px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 0;
+    border-radius: 9px;
+}
+
+.infologin h1{
+    text-align: center;
+    background: rgba(117, 185, 248, 0.925);
+    padding: 20px;
+    font-size: 20px;
+}
+
+.caja{
+    margin: 30px;
+    background: rgba(117, 185, 248, 0.925);
+    border-radius: 6px;
+}
+
+
+.caja label{
+    display: flex;
+    margin-top: 3%;
+    
+    
+}
+.caja input{
+    display: flex;    
+}
+
+.caja button{
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.caja button:hover{
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    background:  rgba(117, 185, 248, 0.925)
+}
+
+.mostrarnesaje label{
+    background: darkorange;
+    width: 40px;
+    
+}
+
+
